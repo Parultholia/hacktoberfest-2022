@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 
     default:
       return (
-        <Box>
+        <Box sx={{ m: 2 }}>
           <FormDataModal />
           <CustomBtn
             onClick={() => onClickHadler()}
