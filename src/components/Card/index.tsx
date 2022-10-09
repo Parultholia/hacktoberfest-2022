@@ -20,7 +20,7 @@ const FormCard: FC<typeFormCard> = ({ children, content }) => {
     <Box sx={styles.cardWrapper}>
       <Box sx={styles.card}>
         <Box>
-          <Link href="" sx={{ ...styles.navBtn, ...styles.closeBtn }}>
+          <Link href="" sx={{ ...styles.navBtn, ...styles.closeBtn } as const}>
             +
           </Link>
           {count !== 1 && (
