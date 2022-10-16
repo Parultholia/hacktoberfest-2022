@@ -4,8 +4,9 @@ const styles: {
   [key: string]: SxProps;
 } = {
   btn: {
+    width: "310px",
     display: "flex",
-    justifyContent: "end",
+    justifyContent: "center",
     backgroundColor: "#8A2BE2",
     margin: "0 auto",
   },
